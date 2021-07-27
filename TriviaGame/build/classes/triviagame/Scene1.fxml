@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="triviagame.Scene1Controller">
+   <children>
+      <Label fx:id="titleLabel" alignment="CENTER" layoutX="92.0" layoutY="19.0" prefHeight="60.0" prefWidth="431.0" text="Welcome to the History Trivia Game!">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="nameLabel" alignment="CENTER" layoutX="197.0" layoutY="104.0" prefHeight="40.0" prefWidth="206.0" text="What is your name?">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" alignment="CENTER" layoutX="184.0" layoutY="187.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="nameButton" layoutX="274.0" layoutY="270.0" mnemonicParsing="false" onAction="#sendtoScene2Action" text="Enter" />
+   </children>
+</AnchorPane>
